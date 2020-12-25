@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.navbar__container {
+  z-index: 999;
+  position: fixed;
+  display: flex;
+  background-color: grey;
+  width: 100%;
+  height: 64px;
+}
+.banner__container {
+  position: relative;
+  background-color: black;
+  width: 100%;
+  height: 700px;
+}
+.navbar__logo {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  width: 20%;
+  height: 100%;
+}
+.navbar--right {
+  flex: 8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: grey;
+  width: 80%;
+  height: 100%;
+}
+.logo {
+  background-color: red;
+  margin: 10px;
+  width: 20%;
+  height: 80%;
+  padding: 10px;
+}
+
+.navbar__btn {
+  flex: 2;
+  background-color: red;
+  margin: 10px;
+  height: 80%;
+  padding: 10px;
+}
+.navbar__btn--right {
+  flex: 1;
+  background-color: red;
+  margin: 10px;
+  height: 80%;
+  padding: 10px;
+}
+.container {
+  position: absolute;
+  background-color: black;
+  right: 30%;
+  width: 40%;
+  height: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.banner {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  background-color: grey;
+  top: 30%;
+  right: -50%;
+  height: 40%;
+  width: 50%;
+}
+.banner__title {
+  background-color: red;
+  width: 40%;
+  height: 20%;
+  margin: 10px;
+  padding: 10px;
+}
+.banner__content {
+  background-color: red;
+  height: 20%;
+  width: 80%;
+  margin: 10px;
+  padding: 10px;
+}
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  height: 5%;
+  width: 80%;
+  margin: 10px;
+  padding: 10px;
+}
+.slide__btn {
+  background-color: red;
+  height: 150%;
+  width: 5%;
+  margin: 10px;
+}
+.banner__intro {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  background-color: grey;
+  top: 30%;
+  right: -50%;
+  height: 40%;
+  width: 60%;
+}
+.banner__description {
+  background-color: red;
+  width: 80%;
+  height: 20%;
+  margin: 10px;
+  padding: 10px;
+}
+.banner__bottom {
+  background-color: red;
+  width: 40%;
+  height: 20%;
+  margin: 10px;
+  padding: 10px;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+h3 {
+  margin: 10px;
+  color: white;
+  text-align: center;
+}
+.video {
+  background-color: grey;
+  position: absolute;
+  top: 12%;
+  right: 5%;
+  width: 90%;
+  height: 60%;
+}
+.video__btn {
+  background-color: red;
+  position: absolute;
+  bottom: 17%;
+  right: 42.5%;
+  width: 15%;
+  height: 7%;
+}
+.button {
+  display: flex;
+  background-color: red;
+  width: 40%;
+  height: 8%;
+  margin: 10px;
+}
+.blank {
+  background-color: white;
+  height: 100px;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  font-size: xx-large;
+}
+.items__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: grey;
+  width: 100%;
+  height: 434px;
+}
+.item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: grey;
+  height: 372px;
+  width: 304px;
+}
+.item__img {
+  background-color: red;
+  width: 100%;
+  height: 295px;
+}
+.item__btn {
+  position: absolute;
+  background-color: red;
+  bottom: 0;
+  width: 185px;
+  height: 63px;
+}
+div {
+  text-align: center;
+}
+.store__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-color: grey;
+  width: 100%;
+  height: 434px;
+}
+.text {
+  padding: 10px;
+  text-align: center;
+  font-size: xx-large;
+}
+.store__btn {
+  background-color: red;
+  width: 185px;
+  height: 63px;
+}
+.footer__container {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 310px;
+}
+.footer--top {
+  display: flex;
+  background-color: aliceblue;
+  height: 230px;
+  width: 100%;
+}
+.footer--bottom {
+  background-color: yellow;
+  height: 80px;
+  width: 100%;
+}
+.footer__inf {
+  flex: 7;
+  background-color: red;
+}
+.footer__contract {
+  flex: 3;
+  background-color: blue;
+}
